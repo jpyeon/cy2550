@@ -1,0 +1,176 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 20:46 ?        00:00:00 /sbin/init splash
+root           2       0  0 20:46 ?        00:00:00 [kthreadd]
+root           3       2  0 20:46 ?        00:00:00 [rcu_gp]
+root           4       2  0 20:46 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 20:46 ?        00:00:00 [slub_flushwq]
+root           6       2  0 20:46 ?        00:00:00 [netns]
+root           8       2  0 20:46 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 20:46 ?        00:00:00 [kworker/u8:0-events_unbound]
+root          11       2  0 20:46 ?        00:00:00 [mm_percpu_wq]
+root          12       2  0 20:46 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 20:46 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 20:46 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 20:46 ?        00:00:01 [rcu_sched]
+root          16       2  0 20:46 ?        00:00:00 [migration/0]
+root          17       2  0 20:46 ?        00:00:00 [cpuhp/0]
+root          18       2  0 20:46 ?        00:00:00 [cpuhp/1]
+root          19       2  0 20:46 ?        00:00:00 [migration/1]
+root          20       2  0 20:46 ?        00:00:00 [ksoftirqd/1]
+root          22       2  0 20:46 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2  0 20:46 ?        00:00:00 [cpuhp/2]
+root          24       2  0 20:46 ?        00:00:00 [migration/2]
+root          25       2  0 20:46 ?        00:00:00 [ksoftirqd/2]
+root          27       2  0 20:46 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          28       2  0 20:46 ?        00:00:00 [cpuhp/3]
+root          29       2  0 20:46 ?        00:00:00 [migration/3]
+root          30       2  0 20:46 ?        00:00:00 [ksoftirqd/3]
+root          32       2  0 20:46 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          34       2  0 20:46 ?        00:00:00 [kdevtmpfs]
+root          35       2  0 20:46 ?        00:00:00 [inet_frag_wq]
+root          37       2  0 20:46 ?        00:00:00 [kauditd]
+root          38       2  0 20:46 ?        00:00:00 [khungtaskd]
+root          39       2  0 20:46 ?        00:00:00 [oom_reaper]
+root          40       2  0 20:46 ?        00:00:00 [writeback]
+root          41       2  0 20:46 ?        00:00:00 [kcompactd0]
+root          42       2  0 20:46 ?        00:00:00 [ksmd]
+root          44       2  0 20:46 ?        00:00:00 [khugepaged]
+root          45       2  0 20:46 ?        00:00:00 [kintegrityd]
+root          46       2  0 20:46 ?        00:00:00 [kblockd]
+root          47       2  0 20:46 ?        00:00:00 [blkcg_punt_bio]
+root          49       2  0 20:46 ?        00:00:00 [tpm_dev_wq]
+root          50       2  0 20:46 ?        00:00:00 [edac-poller]
+root          51       2  0 20:46 ?        00:00:00 [devfreq_wq]
+root          52       2  0 20:46 ?        00:00:00 [watchdogd]
+root          53       2  0 20:46 ?        00:00:00 [kworker/1:1H-kblockd]
+root          54       2  0 20:46 ?        00:00:00 [kswapd0]
+root          62       2  0 20:46 ?        00:00:00 [kthrotld]
+root          64       2  0 20:46 ?        00:00:00 [irq/49-ACPI:Ged]
+root          65       2  0 20:46 ?        00:00:00 [acpi_thermal_pm]
+root          66       2  0 20:46 ?        00:00:00 [mld]
+root          67       2  0 20:46 ?        00:00:00 [kworker/0:1H-kblockd]
+root          68       2  0 20:46 ?        00:00:00 [ipv6_addrconf]
+root          73       2  0 20:46 ?        00:00:00 [kstrp]
+root          77       2  0 20:46 ?        00:00:00 [kworker/u9:0]
+root         157       2  0 20:46 ?        00:00:00 [kworker/2:1H-kblockd]
+root         158       2  0 20:46 ?        00:00:00 [kworker/3:1H-kblockd]
+root         247       2  0 20:46 ?        00:00:00 [jbd2/vda2-8]
+root         248       2  0 20:46 ?        00:00:00 [ext4-rsv-conver]
+root         266       2  0 20:46 ?        00:00:00 [hwrng]
+root         306       1  0 20:46 ?        00:00:00 /lib/systemd/systemd-journald
+root         342       1  0 20:46 ?        00:00:00 /lib/systemd/systemd-udevd
+root         350       2  0 20:46 ?        00:00:00 [psimon]
+root         502       1  0 20:46 ?        00:00:00 dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+root         518       1  0 20:46 ?        00:00:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     525       1  0 20:46 ?        00:00:00 /lib/systemd/systemd-timesyncd
+message+     553       1  0 20:46 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      556       1  0 20:46 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         558       1  0 20:46 ?        00:00:00 /usr/sbin/qemu-ga
+root         562       1  0 20:46 ?        00:00:00 /lib/systemd/systemd-logind
+root         601       1  0 20:46 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         649       1  0 20:46 ?        00:00:00 /usr/sbin/ModemManager
+root         828       2  0 20:46 ?        00:00:00 [rpciod]
+root         829       2  0 20:46 ?        00:00:00 [xprtiod]
+root         831       1  0 20:46 ?        00:00:00 /usr/sbin/cron -f
+root         834       1  0 20:46 ?        00:00:00 /usr/sbin/lightdm
+root         844     834  0 20:46 tty7     00:00:55 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         846       1  0 20:46 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         848       1  0 20:46 ?        00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         857       2  0 20:46 ?        00:00:00 [scsi_eh_0]
+root         858       2  0 20:46 ?        00:00:00 [scsi_tmf_0]
+root         859       2  0 20:46 ?        00:00:01 [usb-storage]
+root         860       2  0 20:46 ?        00:00:00 [uas]
+root         880       2  0 20:46 ?        00:00:00 [psimon]
+rtkit        909       1  0 20:46 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         983     834  0 20:46 ?        00:00:00 lightdm --session-child 15 26
+jpyeon       990       1  0 20:46 ?        00:00:00 /lib/systemd/systemd --user
+jpyeon       991     990  0 20:46 ?        00:00:00 (sd-pam)
+jpyeon      1007     990  0 20:46 ?        00:00:00 /usr/bin/pipewire
+jpyeon      1008     990  0 20:46 ?        00:00:00 /usr/bin/pipewire -c filter-chain.conf
+jpyeon      1009     990  0 20:46 ?        00:00:00 /usr/bin/wireplumber
+jpyeon      1010     990  0 20:46 ?        00:00:00 /usr/bin/pipewire-pulse
+jpyeon      1012     990  0 20:46 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+jpyeon      1013     990  0 20:46 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jpyeon      1037     983  0 20:46 ?        00:00:00 xfce4-session
+jpyeon      1081    1037  0 20:46 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+jpyeon      1091     990  0 20:46 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+jpyeon      1098    1091  0 20:46 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+jpyeon      1109     990  0 20:46 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+jpyeon      1122     990  0 20:46 ?        00:00:00 /usr/bin/gpg-agent --supervised
+jpyeon      1124    1037  0 20:46 ?        00:00:11 xfwm4
+jpyeon      1128     990  0 20:46 ?        00:00:00 /usr/libexec/gvfsd
+jpyeon      1134     990  0 20:46 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+jpyeon      1158    1037  0 20:46 ?        00:00:00 xfsettingsd
+root        1162       1  0 20:46 ?        00:00:00 /usr/libexec/upowerd
+jpyeon      1168    1037  0 20:46 ?        00:00:03 xfce4-panel
+jpyeon      1173    1037  0 20:46 ?        00:00:04 Thunar --daemon
+jpyeon      1179    1037  0 20:46 ?        00:00:01 xfdesktop
+jpyeon      1183    1168  0 20:46 ?        00:00:01 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+jpyeon      1187    1168  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+jpyeon      1188    1168  0 20:46 ?        00:00:25 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+jpyeon      1189    1168  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+jpyeon      1190    1168  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+jpyeon      1191    1168  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+jpyeon      1198    1168  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2200 16777234 actions Action Buttons Log out, lock or other system actions
+jpyeon      1229     990  0 20:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+jpyeon      1243    1037  0 20:46 ?        00:00:00 light-locker
+jpyeon      1251    1037  0 20:46 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+jpyeon      1262    1037  0 20:46 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+jpyeon      1263     990  0 20:46 ?        00:00:00 /usr/libexec/dconf-service
+jpyeon      1271    1037  0 20:46 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+jpyeon      1277    1037  0 20:46 ?        00:00:00 xiccd
+jpyeon      1278       1  0 20:46 ?        00:00:00 xcape -e Super_L Control_L Escape
+jpyeon      1288    1037  0 20:46 ?        00:00:00 nm-applet
+colord      1308       1  0 20:46 ?        00:00:00 /usr/libexec/colord
+jpyeon      1317    1037  0 20:46 ?        00:00:00 xfce4-power-manager
+jpyeon      1382     990  0 20:46 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1392       1  0 20:46 ?        00:00:00 /usr/libexec/udisks2/udisksd
+jpyeon      1407     990  0 20:46 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jpyeon      1414     990  0 20:46 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jpyeon      1420     990  0 20:46 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jpyeon      1425     990  0 20:46 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jpyeon      1440    1128  0 20:46 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+jpyeon      1448     990  0 20:46 ?        00:00:00 /usr/libexec/gvfsd-metadata
+jpyeon      1456     990  0 20:46 ?        00:00:00 /usr/libexec/bluetooth/obexd
+jpyeon      1487       1  0 20:46 ?        00:00:10 /usr/bin/qterminal
+jpyeon      1490    1487  0 20:46 pts/0    00:00:04 /usr/bin/zsh
+jpyeon      4399    1168  2 20:52 ?        00:03:15 /usr/lib/firefox-esr/firefox-esr
+jpyeon      4483     990  0 20:52 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+jpyeon      4488     990  0 20:52 ?        00:00:00 /usr/libexec/xdg-document-portal
+jpyeon      4492     990  0 20:52 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        4499    4488  0 20:52 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+jpyeon      4503     990  0 20:52 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+jpyeon      4535    4399  0 20:52 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230821110938 -prefsLen 20277 -prefMapSize 233266 -appDir /usr/lib/firefox-esr/browser {494c4946-55fd-4f33-8dcb-9a5c0efc28ae} 4399 true socket
+jpyeon      4580    4399  0 20:52 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 20674 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {d6aa596d-dde3-4c91-944a-517d32c10f4d} 4399 true tab
+jpyeon      4706    4399  0 20:52 ?        00:00:20 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 27052 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {95e5814e-3ee9-4013-aa4d-5c332e9b47cd} 4399 true tab
+jpyeon      4722    4399  0 20:52 ?        00:00:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 30768 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {e9152dc2-7bbe-40b7-8618-22bb2d3ab1e9} 4399 true tab
+jpyeon      8155       1  0 20:58 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+jpyeon      8166       1  0 20:58 ?        00:00:01 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+jpyeon      8169       1  0 20:58 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+root       10505       2  0 21:03 ?        00:00:00 [kworker/3:2-events]
+jpyeon     10522    4399  0 21:03 ?        00:00:15 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 13 -isForBrowser -prefsLen 30207 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {8db54fe2-9e32-45e5-b983-339980f3b62f} 4399 true tab
+root       35659       2  0 21:55 ?        00:00:00 [kworker/u8:1-events_unbound]
+jpyeon     37686    4399  0 21:58 ?        00:00:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 15 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {cde311ba-f458-4447-8cfb-359a26bc9bf4} 4399 true tab
+jpyeon     37819    4399  0 21:59 ?        00:00:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 16 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {693f9e71-3e35-4d16-a259-a9441360aea0} 4399 true tab
+jpyeon     38997    4399  0 22:01 ?        00:00:19 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 18 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {a17bcc22-bb70-4b45-b6c2-13fec81f8224} 4399 true tab
+jpyeon     40143    4399  0 22:03 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 19 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {99f79af6-2072-42ee-ab3a-995e05a95eab} 4399 true tab
+root       40834       2  0 22:05 ?        00:00:00 [kworker/u8:2-flush-254:0]
+root       41180       2  0 22:05 ?        00:00:01 [kworker/0:0-events]
+jpyeon     42421    1128  0 22:08 ?        00:00:00 /usr/libexec/gvfsd-computer --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+jpyeon     43579    4399  0 22:10 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 20 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {e75038ec-1f86-47c2-a7c7-233541fba9a7} 4399 true tab
+root       43661       2  0 22:10 ?        00:00:00 [kworker/3:0-events]
+root       43663       2  0 22:10 ?        00:00:00 [kworker/1:2-events]
+jpyeon     43682    4399  0 22:10 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 21 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {87bd9bba-ec3d-414a-8206-477a0e69d33e} 4399 true tab
+jpyeon     43726    4399  0 22:10 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230821110938 -prefsLen 34904 -prefMapSize 233266 -appDir /usr/lib/firefox-esr/browser {42536c58-0211-4712-9f7f-f0ed28e895f6} 4399 true rdd
+jpyeon     43750    4399  0 22:10 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 22 -isForBrowser -prefsLen 30462 -prefMapSize 233266 -jsInitLen 240916 -parentBuildID 20230821110938 -appDir /usr/lib/firefox-esr/browser {815f782e-5da6-4fd3-be48-647e407ff6de} 4399 true tab
+jpyeon     43970    1128  0 22:11 ?        00:00:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+jpyeon     44117       1  0 22:11 ?        00:00:00 /usr/bin/qterminal
+jpyeon     44120   44117  0 22:11 pts/1    00:00:00 /usr/bin/zsh
+root       44876       2  0 22:12 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+root       51630       2  0 22:26 ?        00:00:00 [kworker/2:1]
+root       59882       2  0 22:43 ?        00:00:00 [kworker/1:0-events_power_efficient]
+root       60252       2  0 22:44 ?        00:00:00 [kworker/0:1-events]
+jpyeon     61672     990  0 22:46 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd
+root       62876       2  0 22:48 ?        00:00:00 [kworker/1:1-mm_percpu_wq]
+root       63222       2  0 22:49 ?        00:00:00 [kworker/0:2-events]
+jpyeon     63438    1490  0 22:49 pts/0    00:00:00 ps -ef
